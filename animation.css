@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+}
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-duration: 4s;
+    animation-name: firstAnimation;
+}
+@keyframes firstAnimation{
+    0%{
+        translate: 0 0;
+    }
+    20%{
+        background-color: orangered;
+        translate: 0px 400px;
+        rotate: 90deg;
+    }
+    40%{
+        background-color: orange;
+        translate: 800px 400px;
+        rotate: 180deg;
+        
+    }
+    60%{
+        background-color: yellow;
+        translate: 800px 0;
+        rotate: 270deg;
+    }
+    80%{
+        background-color: yellowgreen;
+        translate: 400px 200px;
+        rotate: 360deg;
+    }
+    100%{
+        background-color: red;
+        translate: 0 0;
+        rotate: 450deg;
+    }
+}
